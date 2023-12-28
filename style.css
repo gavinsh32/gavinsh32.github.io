@@ -1,3 +1,8 @@
+.container {
+    margin-left:5%;
+    margin-right:5%
+}
+
 .myheader {
     display:inline-block;
     border-style:solid;
@@ -5,25 +10,20 @@
     border-width: 4px;
     border-color: black;
     text-align: left;
-    margin-left: 200px;
-    margin-top:30px;
-    margin-right:20px;
     width:200px;
     height:200px;
     padding:12px;
+    background-color:rgb(255, 255, 255);
+    margin-right:10px;
 }
 
 .myheader h1 {
     text-align:center;
 }
 
-
 .projects {
-    vertical-align:top;
     display:inline-block;
-    margin-top:30px;
-    margin-left:20px;
-    height:500px;
+    vertical-align:top;
 }
 
 .projectbox {
@@ -33,10 +33,10 @@
     border-color: black;
     margin-bottom: 10px;
     padding:12px;
+    background-color:white;
 }
 
 body {
     font-family:sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(206, 159, 217);
 }
